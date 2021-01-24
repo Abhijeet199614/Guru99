@@ -3,12 +3,26 @@
 <suite verbose="0" name="Failed suite [Command line suite]">
   <test thread-count="5" verbose="0" name="Command line test(failed)">
     <classes>
+      <class name="com.qa.testcases.TestHomePage">
+        <methods>
+          <include name="verifyhooverOnWebAndClickOnCsharp"/>
+          <include name="testHooveringOnTesting"/>
+          <include name="setUp"/>
+          <include name="validateText"/>
+        </methods>
+      </class> <!-- com.qa.testcases.TestHomePage -->
       <class name="com.qa.testcases.TestCrystalPage">
         <methods>
           <include name="verifyCrystalReportPage"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- com.qa.testcases.TestCrystalPage -->
+      <class name="com.qa.testcases.TestAgilePage">
+        <methods>
+          <include name="setUp"/>
+          <include name="validateSubjectTitle"/>
+        </methods>
+      </class> <!-- com.qa.testcases.TestAgilePage -->
     </classes>
   </test> <!-- Command line test(failed) -->
 </suite> <!-- Failed suite [Command line suite] -->
