@@ -5,6 +5,7 @@
     <classes>
       <class name="com.qa.testcases.TestHomePage">
         <methods>
+          <include name="verifySap"/>
           <include name="verifyhooverOnWebAndClickOnCsharp"/>
           <include name="testHooveringOnTesting"/>
           <include name="setUp"/>
@@ -17,12 +18,6 @@
           <include name="setUp"/>
         </methods>
       </class> <!-- com.qa.testcases.TestCrystalPage -->
-      <class name="com.qa.testcases.TestAgilePage">
-        <methods>
-          <include name="setUp"/>
-          <include name="validateSubjectTitle"/>
-        </methods>
-      </class> <!-- com.qa.testcases.TestAgilePage -->
     </classes>
   </test> <!-- Command line test(failed) -->
 </suite> <!-- Failed suite [Command line suite] -->
