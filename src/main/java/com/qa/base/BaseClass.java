@@ -18,7 +18,8 @@ public class BaseClass {
 		FileInputStream ip = new FileInputStream("D:\\Users\\Tejas Toley\\eclipse-workspace\\Guru99\\src\\main\\java\\com\\qa\\config\\config.properties");
 		prop.load(ip);
 	}
-	
+
+	//initialization of chrome browser and navigate to url
 	public static void initialization() {
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
